@@ -9,7 +9,8 @@ std::string example1() {
 void example2(int a) {}
 void example3(int a) {}
 
-}
+}  // end example
+
 int main() {
     example::example1();
     example::example2(3);
