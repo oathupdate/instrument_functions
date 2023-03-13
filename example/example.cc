@@ -11,6 +11,14 @@ void example3(int a) {}
 
 }  // end example
 
+namespace exclude {
+
+std::string exclude() {
+    return "";
+}
+
+}  // end exclude
+
 int main() {
     example::example1();
     example::example2(3);
